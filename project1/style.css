@@ -1,0 +1,37 @@
+/* boutta get odee creative */
+
+body{
+	background-color: beige;
+	font-family: monospace;
+}
+ h1{ background-color: wheat;
+	font-size:23;
+	color: peru;
+ }
+p{
+	background-color: wheat;
+	font-size:23;
+	color: peru;
+	font-family: monospace;
+}
+img{
+	width: 600;
+	height: 700;
+}
+h2{ background-color: wheat;
+	font-size:23;
+	color: peru;
+	font-family: monospace;
+ }
+ span{ background-color: wheat;
+	font-size:23;
+	color: peru;
+	font-family: monospace;
+ }
+
+ .notification{
+	border: 9px dashed peru;
+	color: peru;
+	margin-bottom: 20px;
+}
+
