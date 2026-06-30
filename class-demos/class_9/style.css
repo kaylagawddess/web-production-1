@@ -27,7 +27,7 @@ body{
     grid-template-rows: 200px 100px 100px;
 }
 .grid-item{
-	bacground:#F2AF29 ;
+	background:#F2AF29 ;
 
 	/* to get rows mto mf apply ro block elements */
 	disply: inline;
