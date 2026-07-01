@@ -5,8 +5,11 @@
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
-	height: 70%;
+	height: 5%;
 	gap: 60px;
+	margin-top: 30%;
+	margin-left: 10px;
+	margin-right: 100px;
 }
 p{
 	align-items: center;
@@ -19,6 +22,8 @@ p{
 }
 
 H3{
+	margin-top: 50px;
+	margin-left: 50px;
 	color:#f7f7f2;
 
 }
@@ -43,8 +48,10 @@ p.child {
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
-	height: 15%;
+	height: 95%;
 	gap: 10px;
+	margin-right: 70px;
+	margin-left: 30px;
 }
 
 .content{ 
@@ -91,6 +98,7 @@ span{
 	background: #ddb892;
 	color:#f7f7f2;
 	font-size: 17;
+	margin-bottom: 25%;
 }
 
 
