@@ -1,11 +1,116 @@
 /* back to the basics ; collages */
-body{
-	background-color: beige;
-	font-family: monospace;
+/*  #000814 */
+.parent-container{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	height: 70%;
+	gap: 60px;
+}
+p{
+	align-items: center;
+	font: monospace;
+	width: 30%;
+	color: #f7f7f2;
+	display: inline-block;
+	padding-left: 10px;
+	display: block;
+}
+
+H3{
+	color:#f7f7f2;
+
+}
+
+/*p2{
+	align-items: center;
+	font: monospace;
+	width: 30%;
+	color: #f7f7f2;
+	display: inline-block;
+	padding-left: 10px;*/
 }
 
 
-.hide {
+p.child {
+	/* trasnparent be removing the inherited css background color type sht */
+	background-color: transparent;
+}
+
+.parent-container2{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	height: 15%;
+	gap: 10px;
+}
+
+.content{ 
+	display: flex;
+	flex-direction: row;
+	justify-content: left-center;
+	align-items: left-center;
+	height: 100%;
+	gap: 10px;
+
+body {
+	width: 100%;
+	height: 100%;
+	font-family: sans-serif;
+	display: flex;
+	flex-direction: row;
+}
+
+nav { 
+	width: 100%;
+	height: 3rem;
+	padding: 1rem;
+
+}
+
+.content{
+	display: flex;
+	flex-direction: column;
+}
+/*
+aside{
+	max-width: 25%;
+	flex-grow: 1;
+}*/
+
+main {
+	display: flex;
+	flex-direction: column;
+	flex-grow: 2;
+}
+
+}
+span{
+	background: #ddb892;
+	color:#f7f7f2;
+	font-size: 17;
+}
+
+
+
+@media (prefers-color-scheme: dark){
+	body{
+		background: #e1bb80;
+	}
+}
+
+@media screen and (width < 600px){
+	body{
+		font-size: 1.5 rem;
+	}
+}
+/*p{
+	width: 30%;
+	padding-left: 10px;
+}*/
+/*.hide {
 	display: none;
 }
 
@@ -13,18 +118,13 @@ body{
 	display:block;
 }
 
-.container{
-	background: #e5e5e5;
+body{
+	background: #f2cc8f;
+	width: 100%;
 	height: 100%;
-
-	/* grid properties & sht */
-    /* grid goes on parent */
-    display: grid;
-    gap: 20px;
-    padding: 10px ; 
-/*{
-	width: 300%;
-	background-color: whitesmoke;
-	display: inline-block;
-	padding-left: 10px;
+	margin: 0;
+	padding: 10px;
+	box-sizing: border-box;
 }*/
+
+
