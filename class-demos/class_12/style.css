@@ -1,0 +1,38 @@
+/*
+a mf color palette heehee
+olive leaf : #606C38
+black forest ( dark green fr) : #283618
+light caramel : #dda15e
+cornsilk : #FEFAE0
+copper : #BC6C25
+*/
+html, body{
+	margin:0;
+	background-color: #BC6C25;
+
+	/* add how big i want the page yo */
+	height: 100%;
+	width: 100%;
+}
+
+/* select body of page
+add following properties: flex
+center children in the middle of page
+*/
+body{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+/* select id created in index.html
+add following properties:
+make size of webpage 50% 
+add a background color and border
+*/
+#container{
+	/* size aint a property fr , gotta set dimensions */
+	width: 50%;
+	height: 50%;
+	background-color: #dda15e;
+	border: #606C38 solid 3px;
+}
