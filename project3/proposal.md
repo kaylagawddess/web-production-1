@@ -13,3 +13,4 @@ MAYBE EYES ( AFTER PUFFS ) IN BACKGROUND
 -[just a little more heehee] (https://publicrecords.nyc)
 
 - ROUGH SKETCH FR ![alt text](proposal_images/PROJECT_3_PROPOSAL%20copy.png)
+- ANOTHER ROUGH SKETCH FR ![alt text](proposal_images/IMG_8172.png)
